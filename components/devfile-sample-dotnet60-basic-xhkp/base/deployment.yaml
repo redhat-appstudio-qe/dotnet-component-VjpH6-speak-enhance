@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-dotnet60-basic-xhkp
     spec:
       containers:
-      - image: dotnet-image:latest
+      - image: quay.io/rsoaresd_org/spi-demos-lton-tenant/dotnet-component/devfile-sample-dotnet60-basic-xhkp@sha256:41334f2c25e70082979143569a9553fd427135b8a678088abc54e2ae78f1946b
         imagePullPolicy: Always
         name: main
         ports:
